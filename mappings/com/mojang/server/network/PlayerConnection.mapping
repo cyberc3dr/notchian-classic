@@ -1,0 +1,5 @@
+CLASS com/mojang/a/a com/mojang/server/network/PlayerConnection
+	FIELD e player Lcom/mojang/minecraft/server/h;
+	FIELD f address Ljava/lang/String;
+	METHOD <init> (Ljava/nio/channels/SocketChannel;)V
+		ARG 1 channel

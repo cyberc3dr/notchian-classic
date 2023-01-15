@@ -1,0 +1,8 @@
+CLASS com/mojang/minecraft/server/h com/mojang/minecraft/server/Player
+	FIELD a connection Lcom/mojang/a/a;
+	FIELD j logger Ljava/util/logging/Logger;
+	FIELD k server Lcom/mojang/minecraft/server/MinecraftServer;
+	FIELD l loggedIn Z
+	METHOD <init> (Lcom/mojang/minecraft/server/MinecraftServer;Lcom/mojang/a/a;I)V
+		ARG 2 connection
+	METHOD a disconnect (Ljava/lang/Exception;)V

@@ -1,0 +1,5 @@
+CLASS a/a com/mojang/utils/MathHelper
+	FIELD a sinTable [F
+	METHOD a sin (F)F
+	METHOD b cos (F)F
+	METHOD c sqrt (F)F
