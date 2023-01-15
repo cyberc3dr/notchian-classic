@@ -1,1 +1,28 @@
 CLASS com/mojang/minecraft/level/tile/a com/mojang/minecraft/level/tile/Block
+	FIELD a random Ljava/util/Random;
+	FIELD ab id I
+	FIELD ac stepSound Lcom/mojang/minecraft/level/tile/Tile$SoundType;
+	FIELD ad opaque [Z
+	FIELD ae cude [Z
+	FIELD af tickDelay [I
+	FIELD ag explodes Z
+	FIELD ah x0 F
+	FIELD ai y0 F
+	FIELD aj z0 F
+	FIELD al x1 F
+	FIELD b blocks [Lcom/mojang/minecraft/level/tile/a;
+	FIELD c physics [Z
+	FIELD d liquid [Z
+	FIELD e STONE Lcom/mojang/minecraft/level/tile/a;
+	FIELD f GRASS Lcom/mojang/minecraft/level/tile/a;
+	FIELD g DIRT Lcom/mojang/minecraft/level/tile/a;
+	METHOD <init> (I)V
+		ARG 1 id
+	METHOD <init> (II)V
+		ARG 1 id
+		ARG 2 textureID
+	METHOD a (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
+		ARG 1 level
+		ARG 5 random
+	METHOD a setPhysics (Z)V
+		ARG 1 bool
