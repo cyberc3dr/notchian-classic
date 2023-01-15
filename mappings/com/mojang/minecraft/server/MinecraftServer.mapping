@@ -11,6 +11,7 @@ CLASS com/mojang/minecraft/server/MinecraftServer
 	FIELD j hasher Lcom/mojang/minecraft/server/i;
 	FIELD k verifyNames Z
 	FIELD l netManager Lcom/mojang/a/b;
+	FIELD m playerConnections Ljava/util/Map;
 	FIELD n users Ljava/util/List;
 	FIELD p maxPlayers I
 	FIELD q serverProperties Ljava/util/Properties;
@@ -19,6 +20,7 @@ CLASS com/mojang/minecraft/server/MinecraftServer
 	FIELD t onlinePlayers [Lcom/mojang/minecraft/server/h;
 	FIELD u ipBanned Lcom/mojang/minecraft/server/f;
 	FIELD w salt Ljava/lang/String;
+	FIELD x externalUrl Ljava/lang/String;
 	FIELD y growTrees Z
 	FIELD z maxConnections I
 	METHOD a disconnect (Lcom/mojang/a/a;)V

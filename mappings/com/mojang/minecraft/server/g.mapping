@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/server/g
+	FIELD a connection Lcom/mojang/a/a;
+	METHOD <init> (Lcom/mojang/a/a;I)V
+		ARG 1 connection

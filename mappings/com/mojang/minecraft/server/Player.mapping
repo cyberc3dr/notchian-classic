@@ -6,3 +6,7 @@ CLASS com/mojang/minecraft/server/h com/mojang/minecraft/server/Player
 	METHOD <init> (Lcom/mojang/minecraft/server/MinecraftServer;Lcom/mojang/a/a;I)V
 		ARG 2 connection
 	METHOD a disconnect (Ljava/lang/Exception;)V
+	METHOD a kick (Ljava/lang/String;)V
+		ARG 1 reason
+	METHOD d kickCheat (Ljava/lang/String;)V
+		ARG 1 cheat
