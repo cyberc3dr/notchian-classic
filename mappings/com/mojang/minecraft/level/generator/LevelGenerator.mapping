@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/a/LevelGenerator
+CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/generator/LevelGenerator
 	FIELD a server Lcom/mojang/minecraft/server/MinecraftServer;
 	FIELD b width I
 	FIELD c depth I
