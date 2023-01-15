@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/level/a com/mojang/minecraft/level/LevelLoader
+	METHOD a saveLevel (Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V
+	METHOD a loadLevel (Ljava/io/InputStream;)Lcom/mojang/minecraft/level/Level;

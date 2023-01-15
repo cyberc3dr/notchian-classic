@@ -1,0 +1,12 @@
+CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/a/LevelGenerator
+	FIELD a server Lcom/mojang/minecraft/server/MinecraftServer;
+	FIELD b width I
+	FIELD c depth I
+	FIELD d height I
+	FIELD e random Ljava/util/Random;
+	FIELD g grassLevel I
+	METHOD a generate (Ljava/lang/String;III)Lcom/mojang/minecraft/level/Level;
+		ARG 1 name
+		ARG 2 width
+		ARG 3 height
+		ARG 4 depth
