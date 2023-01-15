@@ -1,5 +1,7 @@
 CLASS com/mojang/minecraft/server/h com/mojang/minecraft/server/Player
 	FIELD a connection Lcom/mojang/a/a;
+	FIELD b nickname Ljava/lang/String;
+	FIELD i isOp Z
 	FIELD j logger Ljava/util/logging/Logger;
 	FIELD k server Lcom/mojang/minecraft/server/MinecraftServer;
 	FIELD l loggedIn Z
@@ -8,5 +10,7 @@ CLASS com/mojang/minecraft/server/h com/mojang/minecraft/server/Player
 	METHOD a disconnect (Ljava/lang/Exception;)V
 	METHOD a kick (Ljava/lang/String;)V
 		ARG 1 reason
+	METHOD b sendMessage (Ljava/lang/String;)V
+		ARG 1 message
 	METHOD d kickCheat (Ljava/lang/String;)V
 		ARG 1 cheat

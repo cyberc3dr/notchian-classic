@@ -23,6 +23,23 @@ CLASS com/mojang/minecraft/server/MinecraftServer
 	FIELD x externalUrl Ljava/lang/String;
 	FIELD y growTrees Z
 	FIELD z maxConnections I
+	METHOD a getFreeSlots ()I
 	METHOD a disconnect (Lcom/mojang/a/a;)V
 	METHOD a logInfo (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD b users ()Ljava/util/List;
 	METHOD b logFine (Ljava/lang/String;)V
+		ARG 1 message
+	METHOD d kick (Ljava/lang/String;)V
+		ARG 1 nickname
+	METHOD e ban (Ljava/lang/String;)V
+		ARG 1 nickname
+	METHOD f op (Ljava/lang/String;)V
+		ARG 1 nickname
+	METHOD g deop (Ljava/lang/String;)V
+		ARG 1 nickname
+	METHOD h banIp (Ljava/lang/String;)V
+		ARG 1 criteria
+	METHOD main main ([Ljava/lang/String;)V
+		ARG 0 args
+	METHOD run run ()V

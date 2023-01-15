@@ -1,0 +1,9 @@
+CLASS com/mojang/minecraft/level/a com/mojang/minecraft/level/LevelLoader
+	FIELD a server Lcom/mojang/minecraft/server/MinecraftServer;
+	METHOD <init> (Lcom/mojang/minecraft/server/MinecraftServer;)V
+		ARG 1 server
+	METHOD a save (Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V
+		ARG 0 level
+		ARG 1 stream
+	METHOD a load (Ljava/io/InputStream;)Lcom/mojang/minecraft/level/Level;
+		ARG 1 stream
