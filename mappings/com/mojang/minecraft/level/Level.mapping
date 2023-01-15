@@ -60,7 +60,17 @@ CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/Level
 	METHOD netSetTile netSetTile (IIII)Z
 	METHOD netSetTileNoNeighborChange netSetTileNoNeighborChange (IIII)Z
 	METHOD playSound playSound (Ljava/lang/String;FFFFF)V
+		ARG 1 key
+		ARG 2 x
+		ARG 3 y
+		ARG 4 z
+		ARG 5 pitch
+		ARG 6 volume
 	METHOD playSound playSound (Ljava/lang/String;Lcom/mojang/minecraft/Entity;FF)V
+		ARG 1 key
+		ARG 2 entity
+		ARG 3 pitch
+		ARG 4 volume
 	METHOD removeAllNonCreativeModeEntities removeAllNonCreativeModeEntities ()V
 	METHOD removeEntity removeEntity (Lcom/mojang/minecraft/Entity;)V
 	METHOD removeListener$74652038 removeListener$74652038 (Lcom/mojang/minecraft/server/MinecraftServer;)V

@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/server/MinecraftServer
+CLASS com/mojang/minecraft/server/MinecraftServer com/mojang/minecraft/server/MinecraftServer
 	FIELD a logger Ljava/util/logging/Logger;
 	FIELD b dateFormat Ljava/text/DateFormat;
 	FIELD c level Lcom/mojang/minecraft/level/Level;
@@ -24,7 +24,16 @@ CLASS com/mojang/minecraft/server/MinecraftServer
 	FIELD y growTrees Z
 	FIELD z maxConnections I
 	METHOD a getFreeSlots ()I
+	METHOD a finalizeLevel (III)V
 	METHOD a disconnect (Lcom/mojang/a/a;)V
+		ARG 1 connection
+	METHOD a sendPacketToAll (Lcom/mojang/minecraft/a/a;[Ljava/lang/Object;)V
+		ARG 1 packet
+		ARG 2 args
+	METHOD a sendPacketToAllExcept (Lcom/mojang/minecraft/server/h;Lcom/mojang/minecraft/a/a;[Ljava/lang/Object;)V
+		ARG 1 player
+		ARG 2 packet
+		ARG 3 args
 	METHOD a logInfo (Ljava/lang/String;)V
 		ARG 1 message
 	METHOD b users ()Ljava/util/List;

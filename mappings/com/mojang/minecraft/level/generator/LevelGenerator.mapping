@@ -5,6 +5,8 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/generator/LevelG
 	FIELD d height I
 	FIELD e random Ljava/util/Random;
 	FIELD g grassLevel I
+	METHOD <init> (Lcom/mojang/minecraft/server/MinecraftServer;)V
+		ARG 1 server
 	METHOD a generate (Ljava/lang/String;III)Lcom/mojang/minecraft/level/Level;
 		ARG 1 name
 		ARG 2 width

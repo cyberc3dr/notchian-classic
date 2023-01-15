@@ -3,3 +3,6 @@ CLASS com/mojang/a/a com/mojang/minecraft/server/network/PlayerConnection
 	FIELD f address Ljava/lang/String;
 	METHOD <init> (Ljava/nio/channels/SocketChannel;)V
 		ARG 1 channel
+	METHOD a sendPacket (Lcom/mojang/minecraft/a/a;[Ljava/lang/Object;)V
+		ARG 1 packet
+		ARG 2 args

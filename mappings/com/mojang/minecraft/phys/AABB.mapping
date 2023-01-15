@@ -24,10 +24,13 @@ CLASS com/mojang/minecraft/phys/AABB com/mojang/minecraft/phys/AABB
 		ARG 1 vec1
 		ARG 2 vec2
 	METHOD clipXCollide clipXCollide (Lcom/mojang/minecraft/phys/AABB;F)F
+		ARG 1 bb
 		ARG 2 x
 	METHOD clipYCollide clipYCollide (Lcom/mojang/minecraft/phys/AABB;F)F
+		ARG 1 bb
 		ARG 2 y
 	METHOD clipZCollide clipZCollide (Lcom/mojang/minecraft/phys/AABB;F)F
+		ARG 1 bb
 		ARG 2 z
 	METHOD cloneMove cloneMove (FFF)Lcom/mojang/minecraft/phys/AABB;
 		ARG 1 x
@@ -47,7 +50,9 @@ CLASS com/mojang/minecraft/phys/AABB com/mojang/minecraft/phys/AABB
 		ARG 3 z
 	METHOD intersects intersects (FFFFFF)Z
 	METHOD intersects intersects (Lcom/mojang/minecraft/phys/AABB;)Z
+		ARG 1 bb
 	METHOD intersectsInner intersectsInner (Lcom/mojang/minecraft/phys/AABB;)Z
+		ARG 1 bb
 	METHOD move move (FFF)V
 		ARG 1 x
 		ARG 2 y
