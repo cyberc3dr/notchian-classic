@@ -62,6 +62,12 @@ CLASS com/mojang/minecraft/Entity com/mojang/minecraft/Entity
 		ARG 1 y
 		ARG 2 z
 	METHOD intersects intersects (FFFFFF)Z
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 z0
+		ARG 4 x1
+		ARG 5 y1
+		ARG 6 z1
 	METHOD isCreativeModeAllowed isCreativeModeAllowed ()Z
 	METHOD isFree isFree (FFF)Z
 		ARG 1 x

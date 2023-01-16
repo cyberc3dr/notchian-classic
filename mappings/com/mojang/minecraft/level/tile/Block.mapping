@@ -86,7 +86,7 @@ CLASS com/mojang/minecraft/level/tile/a com/mojang/minecraft/level/tile/Block
 	METHOD a clip (IIILcom/mojang/minecraft/b/a;Lcom/mojang/minecraft/b/a;)Lcom/mojang/minecraft/b;
 	METHOD a xIntersects (Lcom/mojang/minecraft/b/a;)Z
 		ARG 1 vec
-	METHOD a (Lcom/mojang/minecraft/level/Level;F)V
+	METHOD a dropItems (Lcom/mojang/minecraft/level/Level;F)V
 		ARG 1 level
 	METHOD a onPlace (Lcom/mojang/minecraft/level/Level;III)V
 		ARG 1 level
@@ -107,7 +107,7 @@ CLASS com/mojang/minecraft/level/tile/a com/mojang/minecraft/level/tile/Block
 		ARG 5 random
 	METHOD a setPhysics (Z)V
 		ARG 1 bool
-	METHOD b isSolid ()Z
+	METHOD b isOpaque ()Z
 	METHOD b yIntersects (Lcom/mojang/minecraft/b/a;)Z
 		ARG 1 vec
 	METHOD b onAdded (Lcom/mojang/minecraft/level/Level;III)V
@@ -115,7 +115,7 @@ CLASS com/mojang/minecraft/level/tile/a com/mojang/minecraft/level/tile/Block
 		ARG 2 x
 		ARG 3 y
 		ARG 4 z
-	METHOD c isOpaque ()Z
+	METHOD c isSolid ()Z
 	METHOD c zIntersects (Lcom/mojang/minecraft/b/a;)Z
 		ARG 1 vec
 	METHOD c onRemoved (Lcom/mojang/minecraft/level/Level;III)V

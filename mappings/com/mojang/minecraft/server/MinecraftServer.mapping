@@ -45,6 +45,8 @@ CLASS com/mojang/minecraft/server/MinecraftServer com/mojang/minecraft/server/Mi
 		ARG 2 command
 	METHOD a logInfo (Ljava/lang/String;)V
 		ARG 1 message
+	METHOD a assembleHeartbeat (Ljava/util/Map;)Ljava/lang/String;
+		ARG 0 args
 	METHOD b users ()Ljava/util/List;
 	METHOD b addToDisconnectQueue (Lcom/mojang/a/a;)V
 		ARG 1 playerConnection
@@ -52,6 +54,7 @@ CLASS com/mojang/minecraft/server/MinecraftServer com/mojang/minecraft/server/Mi
 		ARG 0 player
 	METHOD b logFine (Ljava/lang/String;)V
 		ARG 1 message
+	METHOD c processDisconnections ()V
 	METHOD c matchPlayer (Ljava/lang/String;)Lcom/mojang/minecraft/server/h;
 		ARG 1 nickname
 	METHOD d kick (Ljava/lang/String;)V

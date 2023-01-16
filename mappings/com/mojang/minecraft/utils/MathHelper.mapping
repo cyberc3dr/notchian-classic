@@ -1,5 +1,8 @@
 CLASS a/a com/mojang/minecraft/utils/MathHelper
 	FIELD a sinTable [F
 	METHOD a sin (F)F
+		ARG 0 number
 	METHOD b cos (F)F
+		ARG 0 number
 	METHOD c sqrt (F)F
+		ARG 0 number
