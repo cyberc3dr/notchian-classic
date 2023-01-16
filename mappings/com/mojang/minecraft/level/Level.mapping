@@ -78,6 +78,10 @@ CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/Level
 	METHOD setNetworkMode setNetworkMode (Z)V
 	METHOD setSpawnPos setSpawnPos (IIIF)V
 	METHOD setTile setTile (IIII)Z
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 id
 	METHOD setTileNoNeighborChange setTileNoNeighborChange (IIII)Z
 	METHOD setTileNoUpdate setTileNoUpdate (IIII)Z
 	METHOD swap swap (IIIIII)V

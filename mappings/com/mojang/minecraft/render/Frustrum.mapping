@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/c/a com/mojang/minecraft/render/Frustrum
+	FIELD a frustrum [[F
+	METHOD a isBoxInFrustrum (FFFFFF)Z

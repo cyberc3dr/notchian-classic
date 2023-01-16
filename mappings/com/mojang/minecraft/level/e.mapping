@@ -1,3 +1,0 @@
-CLASS com/mojang/minecraft/level/e
-	FIELD a entityClasses Ljava/util/Set;
-	METHOD readClassDescriptor readClassDescriptor ()Ljava/io/ObjectStreamClass;

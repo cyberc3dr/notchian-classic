@@ -1,4 +1,4 @@
-CLASS a/a com/mojang/utils/MathHelper
+CLASS a/a com/mojang/minecraft/utils/MathHelper
 	FIELD a sinTable [F
 	METHOD a sin (F)F
 	METHOD b cos (F)F
