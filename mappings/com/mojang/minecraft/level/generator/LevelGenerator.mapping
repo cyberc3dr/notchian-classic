@@ -8,8 +8,13 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/generator/LevelG
 	FIELD g grassLevel I
 	METHOD <init> (Lcom/mojang/minecraft/server/MinecraftServer;)V
 		ARG 1 server
-	METHOD a populateOre (IIII)V
-	METHOD a flood (IIIII)J
+	METHOD a generateOre (IIII)V
+		ARG 1 ore
+		ARG 2 abundance
+		ARG 3 stage
+		ARG 4 maxStage
+	METHOD a generateFluid (IIIII)J
+		ARG 5 fluid
 	METHOD a generate (Ljava/lang/String;III)Lcom/mojang/minecraft/level/Level;
 		ARG 1 name
 		ARG 2 width

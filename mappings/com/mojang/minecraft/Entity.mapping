@@ -114,6 +114,7 @@ CLASS com/mojang/minecraft/Entity com/mojang/minecraft/Entity
 	METHOD remove remove ()V
 	METHOD render render (Lcom/mojang/minecraft/c/b;F)V
 	METHOD renderHover renderHover (Lcom/mojang/minecraft/c/b;F)V
+		ARG 1 texture
 	METHOD resetPos resetPos ()V
 	METHOD setLevel setLevel (Lcom/mojang/minecraft/level/Level;)V
 		ARG 1 level
@@ -122,6 +123,7 @@ CLASS com/mojang/minecraft/Entity com/mojang/minecraft/Entity
 		ARG 2 y
 		ARG 3 z
 	METHOD setPos setPos (Lcom/mojang/minecraft/a/b;)V
+		ARG 1 pos
 	METHOD setRot setRot (FF)V
 		ARG 1 yRot
 		ARG 2 xRot

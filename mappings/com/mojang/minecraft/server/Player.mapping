@@ -23,9 +23,11 @@ CLASS com/mojang/minecraft/server/h com/mojang/minecraft/server/Player
 		ARG 1 packet
 		ARG 2 args
 	METHOD a disconnect (Ljava/lang/Exception;)V
+		ARG 1 e
 	METHOD a kick (Ljava/lang/String;)V
 		ARG 1 reason
 	METHOD a updateLevel ([B)V
+		ARG 1 blocks
 	METHOD b sendPacket (Lcom/mojang/minecraft/a/a;[Ljava/lang/Object;)V
 		ARG 1 packet
 		ARG 2 args

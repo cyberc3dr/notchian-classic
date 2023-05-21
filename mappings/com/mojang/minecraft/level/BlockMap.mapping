@@ -8,6 +8,10 @@ CLASS com/mojang/minecraft/level/BlockMap com/mojang/minecraft/level/BlockMap
 	FIELD slot slot Lcom/mojang/minecraft/level/BlockMap$Slot;
 	FIELD tmp tmp Ljava/util/List;
 	FIELD width width I
+	METHOD <init> (III)V
+		ARG 1 width
+		ARG 2 height
+		ARG 3 depth
 	METHOD clear clear ()V
 	METHOD getEntities getEntities (Lcom/mojang/minecraft/Entity;FFFFFF)Ljava/util/List;
 		ARG 1 entity

@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/level/e com/mojang/minecraft/level/LevelObjectInputStream
+CLASS com/mojang/minecraft/level/e com/mojang/minecraft/level/LevelInputStream
 	FIELD a classes Ljava/util/Set;
 	METHOD <init> (Ljava/io/InputStream;)V
 		ARG 1 stream
