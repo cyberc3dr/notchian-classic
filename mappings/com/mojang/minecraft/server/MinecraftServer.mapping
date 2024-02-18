@@ -31,6 +31,7 @@ CLASS com/mojang/minecraft/server/MinecraftServer com/mojang/minecraft/server/Mi
 		ARG 3 z
 	METHOD a disconnect (Lcom/mojang/a/a;)V
 		ARG 1 connection
+		ARG 2 player
 	METHOD a sendPacketToAll (Lcom/mojang/minecraft/a/a;[Ljava/lang/Object;)V
 		ARG 1 packet
 		ARG 2 args
@@ -43,6 +44,8 @@ CLASS com/mojang/minecraft/server/MinecraftServer com/mojang/minecraft/server/Mi
 	METHOD a handleCommand (Lcom/mojang/minecraft/server/h;Ljava/lang/String;)V
 		ARG 1 player
 		ARG 2 command
+		ARG 4 targetPlayer
+		ARG 5 target
 	METHOD a logInfo (Ljava/lang/String;)V
 		ARG 1 message
 	METHOD a assembleHeartbeat (Ljava/util/Map;)Ljava/lang/String;
@@ -54,19 +57,25 @@ CLASS com/mojang/minecraft/server/MinecraftServer com/mojang/minecraft/server/Mi
 		ARG 0 player
 	METHOD b logFine (Ljava/lang/String;)V
 		ARG 1 message
-	METHOD c processDisconnections ()V
+	METHOD c tick ()V
 	METHOD c matchPlayer (Ljava/lang/String;)Lcom/mojang/minecraft/server/h;
 		ARG 1 nickname
+		ARG 3 iterator
+	METHOD d ()V
+		ARG 13 networkManager
 	METHOD d kick (Ljava/lang/String;)V
 		ARG 1 nickname
 	METHOD e ban (Ljava/lang/String;)V
 		ARG 1 nickname
 	METHOD f op (Ljava/lang/String;)V
 		ARG 1 nickname
+		ARG 3 iterator
 	METHOD g deop (Ljava/lang/String;)V
 		ARG 1 nickname
+		ARG 3 iterator
 	METHOD h banIp (Ljava/lang/String;)V
 		ARG 1 criteria
 	METHOD main main ([Ljava/lang/String;)V
 		ARG 0 args
+		ARG 6 server
 	METHOD run run ()V

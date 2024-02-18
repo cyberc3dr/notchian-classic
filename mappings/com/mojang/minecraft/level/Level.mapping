@@ -159,6 +159,7 @@ CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/Level
 		ARG 2 depth
 		ARG 3 height
 		ARG 4 blocks
+		ARG 5 i
 	METHOD setNetworkMode setNetworkMode (Z)V
 		ARG 1 bool
 	METHOD setSpawnPos setSpawnPos (IIIF)V

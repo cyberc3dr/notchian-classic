@@ -11,6 +11,8 @@ CLASS com/mojang/minecraft/server/h com/mojang/minecraft/server/Player
 	FIELD j logger Ljava/util/logging/Logger;
 	FIELD k server Lcom/mojang/minecraft/server/MinecraftServer;
 	FIELD l loggedIn Z
+	FIELD m connected Z
+	FIELD n pendingPackets Ljava/util/ArrayList;
 	FIELD o loginTime J
 	FIELD q messageDelay I
 	FIELD r disconnected Z
@@ -19,9 +21,16 @@ CLASS com/mojang/minecraft/server/h com/mojang/minecraft/server/Player
 		ARG 1 server
 		ARG 2 connection
 		ARG 3 playerID
+		ARG 4 level
+	METHOD a tick ()V
 	METHOD a handlePacket (Lcom/mojang/minecraft/a/a;[Ljava/lang/Object;)V
 		ARG 1 packet
 		ARG 2 args
+		ARG 6 protocol
+		ARG 7 message
+		ARG 8 hash
+		ARG 9 level
+		ARG 10 blocks
 	METHOD a disconnect (Ljava/lang/Exception;)V
 		ARG 1 e
 	METHOD a kick (Ljava/lang/String;)V
@@ -37,3 +46,6 @@ CLASS com/mojang/minecraft/server/h com/mojang/minecraft/server/Player
 		ARG 1 message
 	METHOD d kickCheat (Ljava/lang/String;)V
 		ARG 1 cheat
+	METHOD toString ()Ljava/lang/String;
+		ARG 1 connection1
+		ARG 2 connection2
