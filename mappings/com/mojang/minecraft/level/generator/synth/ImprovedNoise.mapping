@@ -1,0 +1,16 @@
+CLASS com/mojang/minecraft/level/a/a/d com/mojang/minecraft/level/generator/synth/ImprovedNoise
+	FIELD a p [I
+	METHOD <init> (Ljava/util/Random;)V
+		ARG 1 random
+	METHOD a fade (D)D
+		ARG 0 t
+	METHOD a lerp (DDD)D
+		ARG 0 t
+		ARG 2 a
+		ARG 4 b
+	METHOD a grad (IDDD)D
+		ARG 0 hash
+		ARG 1 x
+		ARG 3 y
+		ARG 5 z
+		ARG 12 h

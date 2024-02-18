@@ -73,11 +73,13 @@ CLASS com/mojang/minecraft/Entity com/mojang/minecraft/Entity
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+		ARG 4 box
 	METHOD isFree isFree (FFFF)Z
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
 		ARG 4 grow
+		ARG 5 box
 	METHOD isInLava isInLava ()Z
 	METHOD isInWater isInWater ()Z
 	METHOD isLit isLit ()Z
@@ -86,13 +88,13 @@ CLASS com/mojang/minecraft/Entity com/mojang/minecraft/Entity
 	METHOD isShootable isShootable ()Z
 	METHOD isUnderWater isUnderWater ()Z
 	METHOD move move (FFF)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
+		ARG 1 xa
+		ARG 2 ya
+		ARG 3 za
 	METHOD moveRelative moveRelative (FFF)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
+		ARG 1 xa
+		ARG 2 ya
+		ARG 3 speed
 	METHOD moveTo moveTo (FFFFF)V
 		ARG 1 x
 		ARG 2 y
@@ -128,13 +130,14 @@ CLASS com/mojang/minecraft/Entity com/mojang/minecraft/Entity
 		ARG 1 yRot
 		ARG 2 xRot
 	METHOD setSize setSize (FF)V
-		ARG 1 bbWidth
-		ARG 2 bbHeight
+		ARG 1 w
+		ARG 2 h
 	METHOD shouldRender shouldRender (Lcom/mojang/minecraft/b/a;)Z
 		ARG 1 vec
 	METHOD shouldRenderAtSqrDistance shouldRenderAtSqrDistance (F)Z
 		ARG 1 distance
+		ARG 2 box
 	METHOD tick tick ()V
 	METHOD turn turn (FF)V
-		ARG 1 y
-		ARG 2 x
+		ARG 1 xo
+		ARG 2 yo

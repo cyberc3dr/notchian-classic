@@ -1,9 +1,9 @@
 CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/Level
-	FIELD a listeners Ljava/util/ArrayList;
+	FIELD a levelListeners Ljava/util/ArrayList;
 	FIELD b blockers [I
 	FIELD blockMap blockMap Lcom/mojang/minecraft/level/BlockMap;
 	FIELD blocks blocks [B
-	FIELD c randomID I
+	FIELD c randValue I
 	FIELD cloudColor cloudColor I
 	FIELD createTime createTime J
 	FIELD creativeMode creativeMode Z
@@ -53,6 +53,10 @@ CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/Level
 		ARG 3 z
 		ARG 4 block
 	METHOD calcLightDepths calcLightDepths (IIII)V
+		ARG 1 x0
+		ARG 2 y0
+		ARG 3 x1
+		ARG 4 y1
 	METHOD clip clip (Lcom/mojang/minecraft/b/a;Lcom/mojang/minecraft/b/a;)Lcom/mojang/minecraft/b;
 		ARG 1 vec1
 		ARG 2 vec2
@@ -93,6 +97,7 @@ CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+		ARG 4 tile
 	METHOD getPlayer getPlayer ()Lcom/mojang/minecraft/Entity;
 	METHOD getTile getTile (III)I
 		ARG 1 x
@@ -106,6 +111,7 @@ CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+		ARG 4 block
 	METHOD isLit isLit (III)Z
 		ARG 1 x
 		ARG 2 y
@@ -123,6 +129,7 @@ CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/Level
 		ARG 1 x
 		ARG 2 y
 		ARG 3 z
+		ARG 4 tile
 	METHOD maybeGrowTree maybeGrowTree (III)Z
 		ARG 1 x
 		ARG 2 y

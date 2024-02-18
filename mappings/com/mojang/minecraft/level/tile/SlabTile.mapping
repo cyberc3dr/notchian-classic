@@ -1,0 +1,5 @@
+CLASS com/mojang/minecraft/level/tile/k com/mojang/minecraft/level/tile/SlabTile
+	FIELD ad doubleSlab Z
+	METHOD <init> (IZ)V
+		ARG 1 id
+		ARG 2 doubleSlab

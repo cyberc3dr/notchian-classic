@@ -5,5 +5,12 @@ CLASS com/mojang/minecraft/level/a com/mojang/minecraft/level/LevelIO
 	METHOD a saveLevel (Lcom/mojang/minecraft/level/Level;Ljava/io/OutputStream;)V
 		ARG 0 level
 		ARG 1 stream
+		ARG 3 dos
+		ARG 4 objectOutputStream
 	METHOD a loadLevel (Ljava/io/InputStream;)Lcom/mojang/minecraft/level/Level;
 		ARG 1 stream
+		ARG 10 dis
+		ARG 11 level
+		ARG 12 version
+		ARG 13 levelInputStream
+		ARG 14 name

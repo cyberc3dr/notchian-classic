@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/level/tile/r com/mojang/minecraft/level/tile/LiquidBlock
+CLASS com/mojang/minecraft/level/tile/r com/mojang/minecraft/level/tile/LiquidTile
 	FIELD ad type Lcom/mojang/minecraft/level/b/a;
 	FIELD ae stillID I
 	FIELD af movingID I

@@ -1,4 +1,4 @@
-CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/generator/LevelGenerator
+CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/generator/LevelGen
 	FIELD a server Lcom/mojang/minecraft/server/MinecraftServer;
 	FIELD b width I
 	FIELD c depth I
@@ -6,6 +6,7 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/generator/LevelG
 	FIELD e random Ljava/util/Random;
 	FIELD f blocks [B
 	FIELD g grassLevel I
+	FIELD h coords [I
 	METHOD <init> (Lcom/mojang/minecraft/server/MinecraftServer;)V
 		ARG 1 server
 	METHOD a generateOre (IIII)V
@@ -13,10 +14,28 @@ CLASS com/mojang/minecraft/level/a/a com/mojang/minecraft/level/generator/LevelG
 		ARG 2 abundance
 		ARG 3 stage
 		ARG 4 maxStage
-	METHOD a generateFluid (IIIII)J
-		ARG 5 fluid
+	METHOD a floodFillLiquid (IIIII)J
+		ARG 1 x
+		ARG 2 y
+		ARG 3 z
+		ARG 4 source
+		ARG 5 tt
+		ARG 23 target
+		ARG 24 coordBuffer
 	METHOD a generate (Ljava/lang/String;III)Lcom/mojang/minecraft/level/Level;
 		ARG 1 name
 		ARG 2 width
 		ARG 3 height
 		ARG 4 depth
+		ARG 30 l
+		ARG 31 level
+		ARG 32 gen
+		ARG 33 gen
+		ARG 34 gen
+		ARG 35 gen
+		ARG 36 gen
+		ARG 37 gen
+		ARG 38 gen
+		ARG 39 gen
+		ARG 40 gen
+		ARG 41 gen

@@ -1,0 +1,6 @@
+CLASS com/mojang/minecraft/level/a/a/b com/mojang/minecraft/level/generator/synth/Distort
+	FIELD a source Lcom/mojang/minecraft/level/a/a/c;
+	FIELD b distort Lcom/mojang/minecraft/level/a/a/c;
+	METHOD <init> (Lcom/mojang/minecraft/level/a/a/c;Lcom/mojang/minecraft/level/a/a/c;)V
+		ARG 1 source
+		ARG 2 distort

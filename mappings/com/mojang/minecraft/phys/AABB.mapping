@@ -24,30 +24,32 @@ CLASS com/mojang/minecraft/phys/AABB com/mojang/minecraft/phys/AABB
 		ARG 1 vec1
 		ARG 2 vec2
 	METHOD clipXCollide clipXCollide (Lcom/mojang/minecraft/phys/AABB;F)F
-		ARG 1 bb
-		ARG 2 x
+		ARG 1 c
+		ARG 2 xa
 	METHOD clipYCollide clipYCollide (Lcom/mojang/minecraft/phys/AABB;F)F
-		ARG 1 bb
-		ARG 2 y
+		ARG 1 c
+		ARG 2 ya
 	METHOD clipZCollide clipZCollide (Lcom/mojang/minecraft/phys/AABB;F)F
-		ARG 1 bb
-		ARG 2 z
+		ARG 1 c
+		ARG 2 z1
 	METHOD cloneMove cloneMove (FFF)Lcom/mojang/minecraft/phys/AABB;
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
+		ARG 1 xa
+		ARG 2 ya
+		ARG 3 za
 	METHOD contains contains (Lcom/mojang/minecraft/b/a;)Z
 		ARG 1 vec
 	METHOD copy copy ()Lcom/mojang/minecraft/phys/AABB;
 	METHOD expand expand (FFF)Lcom/mojang/minecraft/phys/AABB;
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
+		ARG 1 xa
+		ARG 2 ya
+		ARG 3 za
+		ARG 9 _z1
 	METHOD getSize getSize ()F
 	METHOD grow grow (FFF)Lcom/mojang/minecraft/phys/AABB;
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
+		ARG 1 xa
+		ARG 2 ya
+		ARG 3 za
+		ARG 7 _z1
 	METHOD intersects intersects (FFFFFF)Z
 		ARG 1 x0
 		ARG 2 y0
@@ -56,13 +58,13 @@ CLASS com/mojang/minecraft/phys/AABB com/mojang/minecraft/phys/AABB
 		ARG 5 y1
 		ARG 6 z1
 	METHOD intersects intersects (Lcom/mojang/minecraft/phys/AABB;)Z
-		ARG 1 bb
+		ARG 1 c
 	METHOD intersectsInner intersectsInner (Lcom/mojang/minecraft/phys/AABB;)Z
-		ARG 1 bb
+		ARG 1 c
 	METHOD move move (FFF)V
-		ARG 1 x
-		ARG 2 y
-		ARG 3 z
+		ARG 1 xa
+		ARG 2 ya
+		ARG 3 za
 	METHOD shrink shrink (FFF)Lcom/mojang/minecraft/phys/AABB;
 		ARG 1 x
 		ARG 2 y

@@ -1,0 +1,10 @@
+CLASS com/mojang/minecraft/level/a/a/c com/mojang/minecraft/level/generator/synth/Synth
+	METHOD a getValue (DD)D
+		ARG 1 x
+		ARG 2 Y
+		ARG 3 z
+		ARG 4 A
+		ARG 21 X
+		ARG 22 B
+		ARG 23 BB
+		ARG 25 Z
